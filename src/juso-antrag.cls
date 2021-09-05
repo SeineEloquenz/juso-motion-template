@@ -21,7 +21,7 @@
 \makeatletter
 \def\@maketitle{
     \begin{minipage}[t]{0.25\textwidth}
-        \includegraphics[height = 30mm]{jusos-logo}
+        \includegraphics[height = 30mm]{juso-logo}
     \end{minipage}
     \begin{minipage}[t]{0.75\textwidth}
         \begin{flushright}
