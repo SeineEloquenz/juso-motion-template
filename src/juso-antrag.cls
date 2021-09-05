@@ -1,5 +1,8 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{juso-antrag}[2021/09/03 Template für Anträge zur Juso MV]
+\ProvidesClass{juso-antrag}[2021/09/03 Template für Anträge zur Juso MV]
+\LoadClass{article}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
 \RequirePackage{graphicx}
 \RequirePackage{lineno}
 \RequirePackage{geometry}
