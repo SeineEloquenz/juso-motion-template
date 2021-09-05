@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{juso-antrag}[2021/09/03 Template für Anträge zur Juso MV]
-\LoadClass{article}
+\LoadClass[11pt]{article}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 \RequirePackage{graphicx}
