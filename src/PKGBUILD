@@ -1,0 +1,25 @@
+# Maintainer: alex <a dot linder dot spd at mondcarion dot group>
+# Brought to you by: alexander linder
+
+pkgname=texlive-juso-antrag
+pkgver=1.0
+pkgrel=1
+pkgdesc="LaTeX class for proposals for the young socialists in the social democratic party of germany"
+arch=('any')
+url="https://github.com/SeineEloquenz/juso-antrag/"
+license=('unknown')
+depends=('texlive-core')
+source=(
+    "juso-antrag.cls"
+    "juso-logo.png"
+)
+sha256sums=(
+    '6760b39a6136c1c8caf5702da335bd589d581fa931a3a73d75ed8f14896a5082'
+    '42733501e784ac26394b59ea31c732b3e4b01311322978008bf5df7832f1f2d4'
+)
+
+package() {
+  mkdir -p "${pkgdir}/usr/share/texmf/tex/latex/${pkgname#texlive-}"
+  install -D -m644 "${srcdir}/juso-antrag.cls" "${pkgdir}/usr/share/texmf/tex/latex/${pkgname#texlive-}/juso-antrag.cls"
+  install -D -m644 "${srcdir}/juso-logo.png" "${pkgdir}/usr/share/texmf/tex/latex/${pkgname#texlive-}/juso-logo.png"
+}

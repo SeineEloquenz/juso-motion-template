@@ -2,3 +2,6 @@
 /out/
 *.iml
 .idea
+src/pkg/
+src/src/
+src/*.zst
