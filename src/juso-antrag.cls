@@ -6,6 +6,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{lineno}
 \RequirePackage{geometry}
+\RequirePackage[ngerman]{babel}
 \setkomafont{section}{\large}
 \setkomafont{subsection}{\large}
 \setkomafont{subsubsection}{\large}
