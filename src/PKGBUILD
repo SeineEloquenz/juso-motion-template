@@ -2,7 +2,7 @@
 # Brought to you by: alexander linder
 
 pkgname=texlive-juso-antrag
-pkgver=1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc="LaTeX class for proposals for the young socialists in the social democratic party of germany"
 arch=('any')
@@ -14,7 +14,7 @@ source=(
     "juso-logo.png"
 )
 sha256sums=(
-    '7e54617a9e2d5050c9f03b73a8ac39d75341b2a2afa56e51891d3501980e2b11'
+    '8a9bd6d66d12ddd1b5473952ae849831afd84211a4355bc184fc21d94758589c'
     '42733501e784ac26394b59ea31c732b3e4b01311322978008bf5df7832f1f2d4'
 )
 

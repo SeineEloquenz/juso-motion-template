@@ -7,6 +7,7 @@
 \RequirePackage{lineno}
 \RequirePackage{geometry}
 \RequirePackage[ngerman]{babel}
+\RequirePackage{lmodern}
 \setkomafont{section}{\large}
 \setkomafont{subsection}{\large}
 \setkomafont{subsubsection}{\large}
