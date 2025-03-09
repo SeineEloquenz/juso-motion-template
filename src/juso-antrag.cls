@@ -41,8 +41,8 @@
     \begin{minipage}[t]{0.85\textwidth}
         \begin{flushright}
             \vspace*{-10mm}
-            {\Large \@arbeitsgemeinschaft \@verband}\\[2ex]
-            {\Large \@versammlungsart am \@date}\\[2ex]
+            {\Large \@arbeitsgemeinschaft\ \@verband}\\[2ex]
+            {\Large \@versammlungsart\ am \@date}\\[2ex]
         \end{flushright}
     \end{minipage}\\[1ex]
     \begin{center}
