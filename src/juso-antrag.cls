@@ -23,9 +23,15 @@
 \newcommand*{\sendto}[1]{\gdef\@sendto{#1}%
 }
 \newcommand*{\@sendto}{LDK}
-\newcommand*{\jusoverband}[1]{\gdef\@jusoverband{#1}%
+\newcommand*{\verband}[1]{\gdef\@verband{#1}%
 }
-\newcommand*{\@jusoverband}{Musterstadt}
+\newcommand*{\@verband}{Musterstadt}
+\newcommand*{\arbeitsgemeinschaft}[1]{\gdef\@arbeitsgemeinschaft{#1}%
+}
+\newcommand*{\@arbeitsgemeinschaft}{Jusos}
+\newcommand*{\versammlungsart}[1]{\gdef\@versammlungsart{#1}%
+}
+\newcommand*{\@versammlungsart}{Mitgliederversammlung}
 \makeatletter
 \def\@maketitle{
     \begin{minipage}[t]{0.15\textwidth}
@@ -35,8 +41,8 @@
     \begin{minipage}[t]{0.85\textwidth}
         \begin{flushright}
             \vspace*{-10mm}
-            {\Large Jusos \@jusoverband}\\[2ex]
-            {\Large Mitgliederversammlung am \@date}\\[2ex]
+            {\Large \@arbeitsgemeinschaft \@verband}\\[2ex]
+            {\Large \@versammlungsart am \@date}\\[2ex]
         \end{flushright}
     \end{minipage}\\[1ex]
     \begin{center}
